@@ -1,0 +1,24 @@
+.ImageUpload{
+    display: flex;
+    
+    
+    justify-content: space-between;
+    
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: rgb(234, 247, 246);
+    
+    
+}
+.imageUpload__progress{
+    width: 100%;
+    
+}
+.submit{
+    color: lightskyblue;
+}
+.post__input{
+    flex:1;
+    margin-right: 1%;
+    border-radius: 3px;
+}

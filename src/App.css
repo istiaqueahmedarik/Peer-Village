@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+*{
+  margin: 0;
+}
+.app__header{
+  object-fit: contain;
+  background-color: white;
+  padding: 20px;
+  border-bottom: 1px solid lightgray;
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.App{
+  background-color: #fafafa;
+  
+  
+}
+.app__signUp{
+  display: flex;
+  flex-direction: column;
+}
+.app__headerImage{
+  object-fit: contain;
+  height: 10%;
+  width: 15%;
+}
+.ver{
+  background-color: red !important;
+}
+.app__loginContainer{
+  border: 6px solid #6e8abc;
+    /* float: left; */
+    width: 22%;
+    margin: auto;
+    margin-top: 5%;
+    padding: 93px;
+    padding-left: 13%;
+}
+.signinimg img {
+  /* margin: auto !important; */
+  /* margin-left: auto; */
+  /* border: 1px solid; */
+  object-fit: contain;
+  margin-left: 27%;
+  margin-top: 1%;
+}
+.instruction {
+  /* margin: auto; */
+  margin-left: 42%;
+  margin-top: 3%;
+  font-size: 156%;
+  line-height: 37px;
+  color: #d618a5;
+  font-family: 'Nerko One', cursive;
+}
+button.MuiButtonBase-root.MuiButton-root.MuiButton-contained {
+  margin-bottom: 5%;
+  width: 62%;
+  background-color: rgb(173, 59, 196);
+  color: #51da5c;
+  font-size: 100%;
+}
+@media only screen and (max-width: 600px) {
+  .app__headerImage{
+    object-fit: contain;
+    height: 10%;
+    width: 35%;
+  }
+  .instruction {
+    margin-left: 26% !important;
+}
+}
+@media only screen and (max-width: 942px) {
+  .signinimg img {
+    /* margin: auto !important; */
+    /* margin-left: auto; */
+    /* border: 1px solid; */
+    object-fit: contain;
+    margin-left: 7%;
+    margin-top: 1%;
+    width: 70%;
+  }
+}
